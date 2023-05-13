@@ -121,3 +121,53 @@ header div p {
   color: #000000;
   margin-left: 20px;
 }
+
+/* SECTION2 */
+
+.section_2 {
+  width: 100%;
+  padding: 64px 0px;
+  background: #f3f3f3;
+  font-family: "Inter", sans-serif;
+}
+
+.box {
+  width: 85%;
+  margin-inline: auto;
+  border: 5px solid yellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box_div {
+  width: 30%;
+  border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.title_div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #000000;
+}
+.title_div_parent {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.title_div_parent p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.box_div_p {
+  width: 97%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
