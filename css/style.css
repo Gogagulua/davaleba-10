@@ -3,8 +3,10 @@
 .container {
   max-width: 1440px;
   width: 100%;
+
   margin-inline: auto;
   border: 5px solid red;
+  font-family: "Inter", sans-serif;
 }
 
 /* header */
@@ -238,4 +240,65 @@ header div p {
   line-height: 24px;
 
   color: #ffffff;
+}
+
+/* section 4s */
+
+.section_4 {
+  width: 100%;
+  /* border: 5px solid blue; */
+  height: 566px;
+  background-image: url(../photos/furniture\ image.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_box_4_p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.div_box_4 h1 {
+  width: 70%;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.div_box_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 12px;
+}
+
+.action_div_4 {
+  background: #f3f3f3;
+  border-radius: 24px;
+  padding: 8px 0;
+  width: 9%;
+}
+
+.action_text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
 }
