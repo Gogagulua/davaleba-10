@@ -302,3 +302,56 @@ header div p {
 
   text-align: center;
 }
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  padding: 96px 0;
+  /* border: 5px solid yellow; */
+  background: #000000;
+}
+.footer_div div {
+  width: 20%;
+  border: 3px solid yellow;
+}
+
+.footer_div {
+  width: 85%;
+  border: 5px solid green;
+  margin-inline: auto;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+.footer_box_1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.footer_div div h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.footer_div div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 20px; */
+
+  color: #ffffff;
+}
+.footer_box_2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.footer_box_2 p {
+  width: 92%;
+}
