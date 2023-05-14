@@ -5,7 +5,7 @@
   width: 100%;
 
   margin-inline: auto;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   font-family: "Inter", sans-serif;
 }
 
@@ -13,7 +13,7 @@
 
 header {
   width: 97%;
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
   padding: 24px 0;
   margin-inline: auto;
   font-family: "Inter", sans-serif;
@@ -29,6 +29,9 @@ header li {
   text-align: center;
 
   color: #000000;
+}
+.burger_icon {
+  display: none;
 }
 
 header ul {
@@ -54,7 +57,7 @@ header div p {
 .section_1 {
   width: 100%;
 
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
   padding: 64px 0px;
 }
 
@@ -62,14 +65,14 @@ header div p {
   width: 85%;
   font-family: "Inter", sans-serif;
   margin-inline: auto;
-  border: 5px solid green;
+  /* border: 5px solid green; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .section_div_2 {
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
 }
 
 .section_div_2 h1 {
@@ -102,7 +105,7 @@ header div p {
   text-align: center;
 }
 .section_div_action {
-  border: 5px solid green;
+  /* border: 5px solid green; */
   display: flex;
 
   align-items: center;
@@ -136,14 +139,14 @@ header div p {
 .box {
   width: 85%;
   margin-inline: auto;
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
   display: flex;
   justify-content: space-between;
 }
 
 .box_div {
   width: 30%;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -185,7 +188,7 @@ header div p {
 
 .section_3_box {
   width: 85%;
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
   margin-inline: auto;
   display: flex;
   /* justify-content: space-between; */
@@ -193,7 +196,7 @@ header div p {
 }
 .section_3_div {
   width: 44%;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -314,7 +317,7 @@ footer {
 }
 .footer_div div div {
   width: 20%;
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
 }
 .footer_box_1_div {
   display: flex;
@@ -322,12 +325,12 @@ footer {
 }
 .footer_div_logo {
   width: 20%;
-  border: 3px solid yellow;
+  /* border: 3px solid yellow; */
 }
 
 .footer_div {
   width: 85%;
-  border: 5px solid green;
+  /* border: 5px solid green; */
   margin-inline: auto;
   display: flex;
   gap: 48px;
