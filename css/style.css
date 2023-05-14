@@ -101,7 +101,7 @@ header div p {
   color: #f3f3f3;
   text-align: center;
 }
-.sectio_div_action {
+.section_div_action {
   border: 5px solid green;
   display: flex;
 
@@ -188,7 +188,8 @@ header div p {
   border: 5px solid yellow;
   margin-inline: auto;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 133px;
 }
 .section_3_div {
   width: 44%;
@@ -311,7 +312,15 @@ footer {
   /* border: 5px solid yellow; */
   background: #000000;
 }
-.footer_div div {
+.footer_div div div {
+  width: 20%;
+  border: 3px solid yellow;
+}
+.footer_box_1_div {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.footer_div_logo {
   width: 20%;
   border: 3px solid yellow;
 }
@@ -321,8 +330,9 @@ footer {
   border: 5px solid green;
   margin-inline: auto;
   display: flex;
+  gap: 48px;
   /* justify-content: space-between; */
-  /* align-items: center; */
+  /* align-items: center */
 }
 .footer_box_1 {
   display: flex;
@@ -330,7 +340,7 @@ footer {
   row-gap: 12px;
 }
 
-.footer_div div h1 {
+.footer_div div div h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -339,7 +349,7 @@ footer {
   color: #ffffff;
 }
 
-.footer_div div p {
+.footer_div div div p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
